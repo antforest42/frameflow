@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "approved": true,
+  "selected_bgm_id": "A",
+  "intro_lines": [
+    "回归测试标题"
+  ],
+  "covers": {
+    "landscape": {
+      "title_lines": [
+        "回归测试",
+        "标题"
+      ],
+      "accent_char_indices": [],
+      "text_center_x": 830,
+      "first_line_center_y": 260,
+      "font_size": 92,
+      "line_spacing_px": 28,
+      "letter_spacing_px": 4,
+      "character_size_scales": {},
+      "subject_center_x": 830,
+      "subject_center_y": 875,
+      "subject_scale": 0.9
+    },
+    "portrait": {
+      "title_lines": [
+        "回归测试标题"
+      ],
+      "accent_char_indices": [
+        2,
+        3
+      ],
+      "text_center_x": 621,
+      "first_line_center_y": 285,
+      "font_size": 96,
+      "line_spacing_px": 32,
+      "letter_spacing_px": 2,
+      "character_size_scales": {
+        "2": 1.2,
+        "3": 1.2
+      },
+      "subject_center_x": 621,
+      "subject_center_y": 1175,
+      "subject_scale": 0.86
+    }
+  },
+  "approved_scene_ids": [
+    "01"
+  ]
+}

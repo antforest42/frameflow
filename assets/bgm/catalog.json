@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "default_id": "A",
+  "intro_source_id": "A",
+  "intro_duration_seconds": 3.933,
+  "options": [
+    {
+      "id": "A",
+      "label": "选项 A",
+      "name": "原版 BGM",
+      "asset": "option-a.mp3",
+      "preview_asset": "previews/option-a-preview.mp3",
+      "preview_start_seconds": 3.933,
+      "body_start_seconds": 3.933,
+      "duration_seconds": 355.78775,
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bit_rate": 192001,
+      "sha256": "2308897D0EDD74140348FAC4CA44733F722D5B7FBD439E55D8EC589AA29C7BD4"
+    },
+    {
+      "id": "B",
+      "label": "选项 B",
+      "name": "溯溪",
+      "asset": "option-b-suxi.mp3",
+      "preview_asset": "previews/option-b-preview.mp3",
+      "preview_start_seconds": 0.225147,
+      "body_start_seconds": 0.225147,
+      "detected_leading_silence_seconds": 0.225147,
+      "silence_detection_threshold_db": -50,
+      "duration_seconds": 243.226083,
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bit_rate": 192001,
+      "sha256": "BE53022DD547A6EE1B3A519E2F8DF819548C49F3D370A284CCC4FEE8C6552B3F"
+    }
+  ]
+}

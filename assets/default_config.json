@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "canvas": {
+    "width": 1440,
+    "height": 1080,
+    "fps": 30,
+    "background_asset": "background.png",
+    "expected_background_hex": "#F7F3EB",
+    "line_y_px": 941,
+    "line_thickness_px": 2
+  },
+  "font": {
+    "family": "Source Han Serif SC",
+    "weight": "Bold",
+    "asset": "fonts/SourceHanSerifSC-Bold.otf"
+  },
+  "colors": {
+    "ink": "#000000",
+    "accent": "#B53316",
+    "intro": "#000000"
+  },
+  "text_layers": {
+    "top_left": {
+      "text_source": "plan.title",
+      "avatar_asset": "brand-avatar.png",
+      "avatar_size_px": 64,
+      "avatar_margin_x": 12,
+      "avatar_margin_y": 12,
+      "text_gap_px": 14,
+      "text_y_px": 29,
+      "pixel_font_size": 31,
+      "anchor": "top_left"
+    },
+    "top_right": {
+      "capcut_font_size": 15,
+      "capcut_scale": 0.25,
+      "capcut_x": 959,
+      "capcut_y": 979,
+      "pixel_font_size": 31,
+      "anchor": "top_right",
+      "margin_x": 24,
+      "margin_y": 29
+    },
+    "subtitle": {
+      "capcut_font_size": 10,
+      "capcut_scale": 1.0,
+      "capcut_x": -60,
+      "capcut_y": -943,
+      "pixel_font_size": 85,
+      "minimum_pixel_font_size": 56,
+      "max_width_px": 1360,
+      "anchor": "bottom_center",
+      "center_x": 720,
+      "center_y": 1002
+    },
+    "intro_title": {
+      "capcut_font_size": 12,
+      "capcut_scale": 1.0,
+      "capcut_x": 0,
+      "capcut_y": 300,
+      "capcut_line_spacing": 7,
+      "pixel_font_size": 88,
+      "line_spacing_px": 18,
+      "horizontal_scale": 1.0,
+      "start_scale": 0.5,
+      "zoom_in_seconds": 3.8,
+      "zoom_easing": "ease_out_quad",
+      "fade_in_seconds": 3.8,
+      "fade_easing": "ease_out_quad",
+      "supersample": 4,
+      "anchor": "center",
+      "center_y": 542
+    }
+  },
+  "brand_text": "个体感受丨时代观察丨生活思考",
+  "image_area": {
+    "left": 165,
+    "top": 215,
+    "right": 1275,
+    "bottom": 865,
+    "preserve_full_canvas": true
+  },
+  "cover": {
+    "width": 1440,
+    "height": 1080,
+    "font_size": 84,
+    "line_spacing_px": 22,
+    "first_line_center_y": 270,
+    "image_area": {
+      "left": 220,
+      "top": 500,
+      "right": 1220,
+      "bottom": 1040
+    },
+    "variants": {
+      "landscape": {
+        "label": "横版 4:3",
+        "width": 1660,
+        "height": 1242,
+        "font_size": 98,
+        "line_spacing_px": 24,
+        "first_line_center_y": 305,
+        "text_center_x": 830,
+        "image_area": {
+          "left": 250,
+          "top": 570,
+          "right": 1410,
+          "bottom": 1200
+        }
+      },
+      "portrait": {
+        "label": "竖版 3:4",
+        "width": 1242,
+        "height": 1660,
+        "font_size": 92,
+        "line_spacing_px": 24,
+        "first_line_center_y": 300,
+        "text_center_x": 621,
+        "image_area": {
+          "left": 120,
+          "top": 690,
+          "right": 1122,
+          "bottom": 1580
+        }
+      }
+    }
+  },
+  "transition": {
+    "name": "slide_left",
+    "duration_seconds": 0.5
+  },
+  "timing": {
+    "subtitle_profile": "privacy_reference_v1",
+    "lead_in_frames": 118,
+    "lead_in_seconds": 3.933,
+    "base_cue_frames": 4,
+    "frames_per_effective_hanzi": 5,
+    "minimum_cue_frames": 25,
+    "inter_cue_gap_pattern_frames": [
+      0,
+      1
+    ],
+    "tail_seconds": 0.3
+  },
+  "audio": {
+    "bgm_asset": "bgm.mp3",
+    "bgm_catalog_asset": "bgm/catalog.json",
+    "default_bgm_id": "A",
+    "intro_volume_db": 0.0,
+    "volume_db": 7.1,
+    "narration_volume_db": 2.0,
+    "target_voice_over_bgm_db": 4.08,
+    "mix_ratio_calibration_asset": "bgm/mix-ratio-calibration.json",
+    "mix_channel_layout": "stereo",
+    "limiter": 0.944,
+    "fade_in_seconds": 0.0,
+    "fade_out_seconds": 0.0
+  },
+  "narration": {
+    "provider": "milora_manbo",
+    "format": "wav",
+    "speed": 0,
+    "max_chunk_characters": 260,
+    "api_key_env": "MILORA_API_KEY",
+    "lead_in_frames": 118,
+    "join_leading_silence_seconds": 0.03,
+    "join_trailing_silence_seconds": 0.08
+  },
+  "output": {
+    "video_codec": "libx264",
+    "crf": 18,
+    "preset": "medium",
+    "audio_codec": "aac",
+    "audio_bitrate": "192k",
+    "audio_sample_rate": 48000
+  }
+}

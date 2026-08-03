@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "title": "回归测试标题",
+  "intro_lines": [
+    "回归测试标题"
+  ],
+  "brand_text": "个体感受丨时代观察丨生活思考",
+  "srt_path": "subtitles.srt",
+  "cover": {
+    "image_path": "__APPROVED_SAMPLE__",
+    "title_lines": [
+      "回归测试",
+      "标题"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "cue_start": 1,
+      "cue_end": 1,
+      "source_text": "这是独立固定测试项目。",
+      "core_relation": "测试审核页能稳定保存两套封面交互状态",
+      "subjects_and_action": "使用固定认可样本验证图片展示",
+      "symbols": [
+        "固定样本"
+      ],
+      "reference_ids": [
+        "approved-01"
+      ],
+      "image_path": "__APPROVED_SAMPLE__"
+    }
+  ]
+}

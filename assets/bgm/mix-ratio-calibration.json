@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "reference_filename": "人声和背景的声音大小比例.mp3",
+  "reference_sha256": "9B5C7D711A0119C0991AAEADDB1D10FF55BC5A058046187BA29834B95888B80B",
+  "reference_duration_seconds": 246.98775,
+  "analysis_window_seconds": 160.0,
+  "matched_bgm_sha256": "F341C9030CD506CF14997886E8E2D09FE7849BCA7A65DD0C308CCB410B4EC8BD",
+  "bgm_side_correlation": 0.999991,
+  "fitted_reference_bgm_gain_db": 0.0,
+  "reference_voice_over_music_db": 4.077,
+  "previous_voice_over_music_db": 11.167,
+  "required_additional_body_bgm_gain_db": 7.09,
+  "adopted_body_bgm_gain_db": 7.1,
+  "intro_bgm_gain_db": 0.0,
+  "narration_gain_db": 2.0
+}

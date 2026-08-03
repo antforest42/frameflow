@@ -1,0 +1,20 @@
+# Local production projects and generated media
+/projects/
+
+# Bundled local runtimes and diagnostic workspace
+/tools/
+/analysis_transition_ref1/
+
+# Local article drafts stored at the repository root
+/*.txt
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Python and operating-system artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

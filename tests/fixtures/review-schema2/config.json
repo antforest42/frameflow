@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "asset_root": "__ASSET_ROOT__",
+  "canvas": {
+    "width": 1440,
+    "height": 1080,
+    "background_asset": "background.png"
+  },
+  "font": {
+    "asset": "fonts/SourceHanSerifSC-Bold.otf"
+  },
+  "colors": {
+    "ink": "#000000",
+    "accent": "#B53316"
+  },
+  "audio": {
+    "bgm_catalog_asset": "bgm/catalog.json",
+    "default_bgm_id": "A"
+  },
+  "brand_text": "个体感受丨时代观察丨生活思考",
+  "cover": {
+    "font_size": 84,
+    "line_spacing_px": 22,
+    "first_line_center_y": 270,
+    "image_area": {
+      "left": 220,
+      "top": 500,
+      "right": 1220,
+      "bottom": 1040
+    },
+    "variants": {
+      "landscape": {
+        "label": "横版 4:3",
+        "width": 1660,
+        "height": 1242,
+        "font_size": 98,
+        "line_spacing_px": 24,
+        "first_line_center_y": 305,
+        "text_center_x": 830,
+        "image_area": {
+          "left": 250,
+          "top": 570,
+          "right": 1410,
+          "bottom": 1200
+        }
+      },
+      "portrait": {
+        "label": "竖版 3:4",
+        "width": 1242,
+        "height": 1660,
+        "font_size": 92,
+        "line_spacing_px": 24,
+        "first_line_center_y": 300,
+        "text_center_x": 621,
+        "image_area": {
+          "left": 120,
+          "top": 690,
+          "right": 1122,
+          "bottom": 1580
+        }
+      }
+    }
+  }
+}

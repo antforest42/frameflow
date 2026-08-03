@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "count": 27,
+  "items": [
+    {
+      "id": "approved-01",
+      "file": "00-你身边人为什么总打你的隐私.png",
+      "title": "你身边人为什么总打你的隐私",
+      "sha256": "d82a466f8b468b0c5d0b5f79f1f1238f6f75b84fc18f61032f9fda6d8e4750a9"
+    },
+    {
+      "id": "approved-02",
+      "file": "01a_打听薪资与对象条件.png",
+      "title": "打听薪资与对象条件",
+      "sha256": "2c5a8282bc5f08630247d3661f0b0a4e06f5e8d77e6d67e72989b4bef3192eef"
+    },
+    {
+      "id": "approved-03",
+      "file": "01b_打听薪资与对象条件.png",
+      "title": "打听薪资与对象条件",
+      "sha256": "7fe46338f298c3b2c217d994e1c244d266852924bfb575cf0e8075270f2bac21"
+    },
+    {
+      "id": "approved-04",
+      "file": "02_热情背后的窥探.png",
+      "title": "热情背后的窥探",
+      "sha256": "e20f687e165d44e7b9314e59b92389f07ef0c6134c637897b2f3ae7189dde940"
+    },
+    {
+      "id": "approved-05",
+      "file": "03_通过比较寻找优越感.png",
+      "title": "通过比较寻找优越感",
+      "sha256": "a92bb98a851be096493f444707d503a2af2fe652eb62ce6e1079f8cd287c610f"
+    },
+    {
+      "id": "approved-06",
+      "file": "04_衡量别人抬高自己.png",
+      "title": "衡量别人抬高自己",
+      "sha256": "072ea6ac25a530164442ffaf707597d309a8c7dbfe93746d53e36d38eea38a48"
+    },
+    {
+      "id": "approved-07",
+      "file": "05_见不得别人过得更好.png",
+      "title": "见不得别人过得更好",
+      "sha256": "925dfaaa064a4e12eb9f307df8946dc67daf07249e37a1d9e0520cd011559f00"
+    },
+    {
+      "id": "approved-08",
+      "file": "06_把你的生活当成镜子.png",
+      "title": "把你的生活当成镜子",
+      "sha256": "6590c843dbc85985fdc908308cbbf7e6f26c219d790ec97d6e56133591624915"
+    },
+    {
+      "id": "approved-09",
+      "file": "07_喜悦和烦恼都被扭曲.png",
+      "title": "喜悦和烦恼都被扭曲",
+      "sha256": "eeef6f4153b2b3426bcf0d47ccc8a61aaba1d4208643643f046ccf3c2b49064f"
+    },
+    {
+      "id": "approved-10",
+      "file": "08_收集隐私作为社交筹码.png",
+      "title": "收集隐私作为社交筹码",
+      "sha256": "fbdbaddf312dd1800620e46843d1e9108da1020fcf95dc22febcedb2dfab27ab"
+    },
+    {
+      "id": "approved-11",
+      "file": "09_打听家庭背景与靠山.png",
+      "title": "打听家庭背景与靠山",
+      "sha256": "b15e4d5619354907b11f3119d46b0b3806f91ef65a5d1547df7ec019f0e3b5b3"
+    },
+    {
+      "id": "approved-12",
+      "file": "10_追问感情寻找拿捏机会.png",
+      "title": "追问感情寻找拿捏机会",
+      "sha256": "4c94ec919e2c9384a0035bfb766ab1d68f4f385b868ffc00512a839e21ef09a8"
+    },
+    {
+      "id": "approved-13",
+      "file": "11_争夺你的私人信息.png",
+      "title": "争夺你的私人信息",
+      "sha256": "b8826fcbf9bf02133626cf7910eaee731a427161b0040cd14b7b5ca0029ca00f"
+    },
+    {
+      "id": "approved-14",
+      "file": "12_隐私变成社交武器.png",
+      "title": "隐私变成社交武器",
+      "sha256": "3c99952e745b05f1a0d1b3731a81b0ef55db3c61561576ce73327fc49d3d74eb"
+    },
+    {
+      "id": "approved-15",
+      "file": "13_关系破裂时攻击软肋.png",
+      "title": "关系破裂时攻击软肋",
+      "sha256": "cee00e812f89fa96bc78dad5229f32df04473b3683807ed2c7cf84eee5bf517a"
+    },
+    {
+      "id": "approved-16",
+      "file": "14_利益争夺时用来威胁.png",
+      "title": "利益争夺时用来威胁",
+      "sha256": "abc74131ebe71242703802305c5e19816a6c429270c8d06efdbaef03a6d9161b"
+    },
+    {
+      "id": "approved-17",
+      "file": "15_把隐私当作八卦谈资.png",
+      "title": "把隐私当作八卦谈资",
+      "sha256": "747dbd735b0084649579fb5305b37d792ba4c6cf1a86e5cc1011ab1bbf03df0c"
+    },
+    {
+      "id": "approved-18",
+      "file": "16_表面友善背后伤害.png",
+      "title": "表面友善背后伤害",
+      "sha256": "b5d1407e59bc2aca2da74b7537c42aae075aa5fee0c005eae6932415e0a2d5b5"
+    },
+    {
+      "id": "approved-19",
+      "file": "17_添油加醋编造故事.png",
+      "title": "添油加醋编造故事",
+      "sha256": "770cf30588fd06ca8cab8a78806274458f7c6b31e43bfea068b7a4dffcfc997f"
+    },
+    {
+      "id": "approved-20",
+      "file": "18_利用诱饵套话设陷阱.png",
+      "title": "利用诱饵套话设陷阱",
+      "sha256": "34e44b0f10fba6a66533ea52d7f8b46562f002dd16f3a32d02c4025ec45aa37b"
+    },
+    {
+      "id": "approved-21",
+      "file": "19_伪装关心获取信任.png",
+      "title": "伪装关心获取信任",
+      "sha256": "962a61520a74220f6f59f7bd477d68db666b2d50c1534a8a57c92bf204b7cb98"
+    },
+    {
+      "id": "approved-22",
+      "file": "20_一步步引向预设陷阱.png",
+      "title": "一步步引向预设陷阱",
+      "sha256": "eb760ce780b73c57db73f05b2a57990485ae7f906124d8397dc3fda6361b4c3e"
+    },
+    {
+      "id": "approved-23",
+      "file": "21_放松警惕掉进陷阱.png",
+      "title": "放松警惕掉进陷阱",
+      "sha256": "00cccdfabc4276a08523b2f56d033aea0ecc196b99669d63369f24260b51c2c6"
+    },
+    {
+      "id": "approved-24",
+      "file": "22_不要把隐私全说出去.png",
+      "title": "不要把隐私全说出去",
+      "sha256": "e676628fa33afd84d29ce387b11ef1632a85ee4c34f6c9648f4ad217fb9bb8ad"
+    },
+    {
+      "id": "approved-25",
+      "file": "23_真正关心会尊重边界.png",
+      "title": "真正关心会尊重边界",
+      "sha256": "856a0a1240f91e4597df054661d0db4f7f95b67107bb03dfe960ee066a2b4c1f"
+    },
+    {
+      "id": "approved-26",
+      "file": "24_反问并转移话题.png",
+      "title": "反问并转移话题",
+      "sha256": "dd0c03d2285abc27330b6f78ea47e13f3f17934b1578d84e244cc24a9dd98e55"
+    },
+    {
+      "id": "approved-27",
+      "file": "25_守住隐私与生活主动权.png",
+      "title": "守住隐私与生活主动权",
+      "sha256": "895ca635248ef567c2824da2c6ac24656250257d84bc594123bc0806802ebd28"
+    }
+  ]
+}
