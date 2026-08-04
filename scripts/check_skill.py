@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run a read-only health check for the life-evolution video skill."""
+"""Run a read-only health check for the FrameFlow video skill."""
 
 from __future__ import annotations
 
@@ -256,7 +256,7 @@ def check_skill_metadata(root: Path, health: HealthCheck) -> None:
             continue
         key, value = raw_line.split(":", 1)
         fields[key.strip()] = value.strip()
-    if fields.get("name") != "life-evolution-video-maker":
+    if fields.get("name") != "frameflow":
         health.fail("SKILL.md 的 name 不正确")
     elif not fields.get("description"):
         health.fail("SKILL.md 的 description 为空")
@@ -287,7 +287,7 @@ def check_skill_metadata(root: Path, health: HealthCheck) -> None:
 
     agent_path = root / "agents" / "openai.yaml"
     agent_text = agent_path.read_text(encoding="utf-8-sig")
-    if "$life-evolution-video-maker" not in agent_text:
+    if "$frameflow" not in agent_text:
         health.fail("agents/openai.yaml 的默认提示未引用 Skill 名称")
     else:
         health.pass_check("Skill 界面元数据与调用名称一致")
@@ -744,7 +744,7 @@ def check_review_interactions(
 def check_tts_safety_and_chunking(root: Path, health: HealthCheck) -> None:
     script_path = root / "scripts" / "generate_manbo_tts.py"
     specification = importlib.util.spec_from_file_location(
-        "life_evolution_manbo_healthcheck",
+        "frameflow_manbo_healthcheck",
         script_path,
     )
     if specification is None or specification.loader is None:

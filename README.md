@@ -8,7 +8,7 @@
   <img src="./examples/images/frameflow-body-frame.png" alt="FrameFlow 生成的知识视频正文画面" width="100%">
 </p>
 
-FrameFlow 是这套工作流的产品名。仓库当前保留的 Codex Skill 触发名是 `$life-evolution-video-maker`。
+FrameFlow 既是产品名，也是 Codex Skill 的正式名称；在 Codex 中使用 `$frameflow` 调用。
 
 ---
 
@@ -188,13 +188,13 @@ FrameFlow 当前面向 Codex 本地工作流。建议准备：
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/antforest42/life-evolution-video-maker.git "$env:USERPROFILE\.codex\skills\life-evolution-video-maker"
+git clone https://github.com/antforest42/frameflow.git "$env:USERPROFILE\.codex\skills\frameflow"
 ```
 
 macOS / Linux：
 
 ```bash
-git clone https://github.com/antforest42/life-evolution-video-maker.git "${CODEX_HOME:-$HOME/.codex}/skills/life-evolution-video-maker"
+git clone https://github.com/antforest42/frameflow.git "${CODEX_HOME:-$HOME/.codex}/skills/frameflow"
 ```
 
 ### 配置朗读 API Key
@@ -222,7 +222,7 @@ API Key 只从环境变量读取，不要写进 Skill、脚本、配置、日志
 在 Codex 中输入：
 
 ```text
-使用 $life-evolution-video-maker 把下面的中文文案制作成一条完整视频。
+使用 $frameflow 把下面的中文文案制作成一条完整视频。
 
 标题：离网络越近，离现实越远
 
@@ -237,7 +237,7 @@ API Key 只从环境变量读取，不要写进 Skill、脚本、配置、日志
 ### 先做到审核页
 
 ```text
-使用 $life-evolution-video-maker 处理下面的标题和正文。
+使用 $frameflow 处理下面的标题和正文。
 先完成连续朗读、词级字幕对齐、场景规划和配图，生成 review.html 后暂停，等我审核。
 
 标题：<标题>

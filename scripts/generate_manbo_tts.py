@@ -202,7 +202,7 @@ def request_audio_url(
     url = endpoint + "?" + urllib.parse.urlencode(query)
     headers = {
         "Accept": "application/json",
-        "User-Agent": "life-evolution-video-maker/1.0",
+        "User-Agent": "frameflow/1.0",
     }
     if api_key:
         headers["Authorization"] = f"Bearer {api_key}"
@@ -223,7 +223,7 @@ def download_file(url: str, output: Path, timeout_seconds: float) -> None:
     validate_download_url(url)
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "life-evolution-video-maker/1.0"},
+        headers={"User-Agent": "frameflow/1.0"},
     )
     opener = urllib.request.build_opener(ValidatingRedirectHandler())
     with opener.open(request, timeout=timeout_seconds) as response:

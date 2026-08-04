@@ -532,7 +532,7 @@ def main() -> int:
     output_config = config["output"]
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix="life-evolution-render-") as temp:
+    with tempfile.TemporaryDirectory(prefix="frameflow-render-") as temp:
         silent = Path(temp) / "silent.mp4"
         encode_command = [
             "ffmpeg",

@@ -39,7 +39,7 @@ async function main() {
   const generator = path.join(root, "scripts", "generate_review.py");
   const fixture = path.join(root, "tests", "fixtures", "review-schema2");
   const temporaryRoot = fs.mkdtempSync(
-    path.join(os.tmpdir(), "life-evolution-review-regression-")
+    path.join(os.tmpdir(), "frameflow-review-regression-")
   );
   const project = path.join(temporaryRoot, "review-schema2");
   const reviewPath = path.join(project, "review.html");

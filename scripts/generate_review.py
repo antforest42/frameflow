@@ -790,7 +790,7 @@ dl{display:grid;grid-template-columns:42px 1fr;gap:5px;margin:9px 0 0}dd{margin:
 <script id="reviewData" type="application/json">__PAYLOAD__</script>
 <script>
 const seed=JSON.parse(document.getElementById("reviewData").textContent);
-const storageKey="life-evolution-review-v2:"+seed.title;
+const storageKey="frameflow-review-v2:"+seed.title;
 const $=id=>document.getElementById(id);
 const compact=value=>value.replace(/\\s/g,"");
 const clamp=(value,min,max)=>Math.min(max,Math.max(min,Number(value)));

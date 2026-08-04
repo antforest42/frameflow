@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shared helpers for the life-evolution video workflow."""
+"""Shared helpers for the FrameFlow video workflow."""
 
 from __future__ import annotations
 

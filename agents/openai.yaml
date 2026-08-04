@@ -1,7 +1,7 @@
 interface:
-  display_name: "\u4EBA\u751F\u8FDB\u5316\u8BBA\u89C6\u9891\u5DE5\u574A"
+  display_name: "FrameFlow"
   short_description: "音频优先对齐字幕、审核配图，并生成横竖双尺寸封面与成片"
-  default_prompt: "使用 $life-evolution-video-maker 生成连续朗读并对齐字幕，在审核页调整配图和横竖双尺寸封面后完成成片。"
+  default_prompt: "使用 $frameflow 生成连续朗读并对齐字幕，在审核页调整配图和横竖双尺寸封面后完成成片。"
 policy:
   products:
   - chatgpt
