@@ -388,9 +388,3 @@ python -B scripts/check_skill.py . --projects-root projects
 - 图片中默认不生成文字；需要表达信息时，优先使用箭头、锁、问号、放大镜等图形符号。
 - 已经通过的图片优先复用，只有语义变化或用户明确要求时才重做。
 - `review.html` 是本地审核工具，不是云端协作后台。
-
----
-
-## README 参考
-
-本文档的组织方式参考了 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)：先说明工具是什么，再用真实实例展示效果，最后给出安装、使用、工作流和注意事项。FrameFlow 的功能描述、命令和案例均来自本仓库的实际实现与现有项目产物。
